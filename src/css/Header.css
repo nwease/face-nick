@@ -6,6 +6,10 @@
 
 }
 
+.header__left > img {
+    height: 40px;
+}
+
 .header__center {
 
 }
