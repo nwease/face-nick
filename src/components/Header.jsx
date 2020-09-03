@@ -7,6 +7,9 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 import AddIcon from '@material-ui/icons/Add';
+import ForumIcon from '@material-ui/icons/Forum';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Avatar, IconButton } from '@material-ui/core';
 
 const Header = () => {
@@ -54,11 +57,23 @@ const Header = () => {
                     <h4>
                         Nicholas Wease
                     </h4>
-
-                    <IconButton>
-                        <AddIcon />
-                    </IconButton>
                 </div>
+
+                <IconButton>
+                    <AddIcon />
+                </IconButton>
+
+                <IconButton>
+                    <ForumIcon />
+                </IconButton>
+
+                <IconButton>
+                    <NotificationsActiveIcon />
+                </IconButton>
+
+                <IconButton>
+                    <ExpandMoreIcon />
+                </IconButton>
             </div>
         </div>
     );
