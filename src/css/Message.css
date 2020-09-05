@@ -48,3 +48,8 @@
     color: gray;
     margin: 5px;
 }
+
+.messageSender__option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+}
