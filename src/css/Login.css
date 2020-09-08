@@ -1,0 +1,13 @@
+.login > div > img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.login__logo {
+
+}
+
+.login__logo > img {
+
+}
+
