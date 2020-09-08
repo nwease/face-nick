@@ -5,24 +5,25 @@ import SideBar from './components/SideBar';
 import Feed from './components/Feed';
 import Widgets from './components/Widgets';
 import Login from './components/Login';
+import {useStateValue} from './Provider';
 
 function App() {
 
-    const user = null;
+    const [{user}, dispatch] = useStateValue();
 
     return (
         <div className='app'>
             {
                 !user ? (
-                    <Login />
+                    <Login/>
                 ) : (
                     <>
-                        <Header />
+                        <Header/>
 
                         <div className='app__body'>
-                            <SideBar />
-                            <Feed />
-                            <Widgets />
+                            <SideBar/>
+                            <Feed/>
+                            <Widgets/>
                         </div>
                     </>
 

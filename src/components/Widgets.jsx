@@ -13,8 +13,9 @@ const Widgets = () => {
                 frameBorder='0'
                 allowTransparency='true'
                 allow='encrypted-media'
+                title='Facebook'
             >
-
+                Facebook
             </iframe>
         </div>
     );
